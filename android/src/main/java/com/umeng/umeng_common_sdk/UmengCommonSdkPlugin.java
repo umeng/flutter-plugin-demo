@@ -166,10 +166,10 @@ public class UmengCommonSdkPlugin implements FlutterPlugin, MethodCallHandler {
     MobclickAgent.onEventObject(getContext(), event, map);
 
     if(map!=null) {
-      android.util.Log.i("UMLog", "onEventObject:"+event+"("+map.toString()+")");
+      //android.util.Log.i("UMLog", "onEventObject:"+event+"("+map.toString()+")");
     }
     else {
-      android.util.Log.i("UMLog", "onEventObject:"+event);
+      //android.util.Log.i("UMLog", "onEventObject:"+event);
     }
   }
 
